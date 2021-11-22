@@ -1,0 +1,64 @@
+products:
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\CoreJoinApp$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\CoreJoinApp.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\DbWrodCntApp$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\DbWrodCntApp.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\NetWrokCntApp$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\NetWrokCntApp.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\OffsetApp$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\OffsetApp.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\StateWordCnt$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\StateWordCnt.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\TransformApp$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\TransformApp.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\util\DbUtils$.class
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\code\java\pkspark\pk-ss\target\classes\com\ljn\ss\util\DbUtils.class
+binary dependencies:
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming_2.12\3.0.0\spark-streaming_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming_2.12\3.0.0\spark-streaming_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\kafka\kafka-clients\2.5.0\kafka-clients-2.5.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming-kafka-0-10_2.12\3.0.0\spark-streaming-kafka-0-10_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming_2.12\3.0.0\spark-streaming_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming_2.12\3.0.0\spark-streaming_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-core_2.12\3.0.0\spark-core_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\apache\spark\spark-streaming_2.12\3.0.0\spark-streaming_2.12-3.0.0.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\mongodb\bson\3.2.2\bson-3.2.2.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\mongodb\mongodb-driver-core\3.2.2\mongodb-driver-core-3.2.2.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\mongodb\mongodb-driver\3.2.2\mongodb-driver-3.2.2.jar
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> D:\Program Files\Maven\apache-maven-3.6.1\repo\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.jar
+source dependencies:
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala
+external dependencies:
+class names:
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> com.ljn.ss.CoreJoinApp
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\CoreJoinApp.scala -> com.ljn.ss.CoreJoinApp$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> com.ljn.ss.DbWrodCntApp
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\DbWrodCntApp.scala -> com.ljn.ss.DbWrodCntApp$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> com.ljn.ss.NetWrokCntApp
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\NetWrokCntApp.scala -> com.ljn.ss.NetWrokCntApp$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> com.ljn.ss.OffsetApp
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\OffsetApp.scala -> com.ljn.ss.OffsetApp$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> com.ljn.ss.StateWordCnt
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\StateWordCnt.scala -> com.ljn.ss.StateWordCnt$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> com.ljn.ss.TransformApp
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\TransformApp.scala -> com.ljn.ss.TransformApp$
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> com.ljn.ss.util.DbUtils
+   D:\code\java\pkspark\pk-ss\src\main\scala\com\ljn\ss\util\DbUtils.scala -> com.ljn.ss.util.DbUtils$

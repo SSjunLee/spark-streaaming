@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="bili@103.47.82.178" uuid="2b91249d-498d-4c4c-b3c9-5b9b6533b81a">
+    <data-source source="LOCAL" name="ljn@vm" uuid="9b92c54e-35ca-44ea-a42c-cdc3f9bb922e">
       <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
-      <jdbc-url>mongodb://103.47.82.178:27017/bili</jdbc-url>
+      <jdbc-url>mongodb://vm:27017/ljn</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ljn@hadoop000" uuid="08586691-0f8e-4354-b3af-7ca5ad814c02">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://hadoop000:27017/ljn</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
