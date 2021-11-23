@@ -30,6 +30,6 @@ object DbWrodCntApp {
       })
     ssc.start()
     ssc.awaitTermination()
-    DbUtils.close()
+
   }
 }

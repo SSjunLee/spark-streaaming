@@ -12,9 +12,8 @@ import org.bson.Document
 
 object StreamApp {
 
-  def initApp(cu: ConfigUtil) = {
-    DbUtils.init(cu.get(ConfigUtil.MONGO_IP), cu.get(ConfigUtil.MONGO_PORT).toInt, cu.get(ConfigUtil.MONGO_DBNAME))
-    RankUtils.initRankUtil(null)
+  def getDbConfig(cu: ConfigUtil) = {
+    DbUtils.DbConfig(cu.get(ConfigUtil.MONGO_IP), cu.get(ConfigUtil.MONGO_PORT).toInt, cu.get(ConfigUtil.MONGO_DBNAME))
   }
 
   def getKafkaStrategy(cu: ConfigUtil) = {
@@ -34,12 +33,17 @@ object StreamApp {
     Subscribe[String, String](topics, kafkaParams)
   }
 
-  def getStreamingContext(cu: ConfigUtil) = {
+  def initStreamingContext(cu: ConfigUtil, dbConfig:DbUtils.DbConfig) = {
     val sparkConf = new SparkConf()
+    sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+      .registerKryoClasses(Array[Class[_]](classOf[RankUtils]))
     if (cu.get(ConfigUtil.ENV).equals("test"))
       sparkConf.setAppName(this.getClass.getSimpleName).setMaster("local[2]")
     val second = cu.get(ConfigUtil.INTERVAL).toInt
-    new StreamingContext(sparkConf, Seconds(second))
+    val context = new StreamingContext(sparkConf, Seconds(second))
+    val boradConfig = context.sparkContext.broadcast(dbConfig)
+    val boardRankUtils = context.sparkContext.broadcast(new RankUtils())
+    (context,boradConfig,boardRankUtils)
   }
 
   def main(args: Array[String]): Unit = {
@@ -48,10 +52,9 @@ object StreamApp {
       System.exit(-1)
     }
     val cu = new ConfigUtil(args(0))
-    initApp(cu)
+    val dbConfig = getDbConfig(cu)
 
-
-    val ssc = getStreamingContext(cu)
+    val (ssc,boradCastConfig,boardRankUtils) = initStreamingContext(cu,dbConfig)
     val lines = KafkaUtils.createDirectStream[String, String](
       ssc,
       PreferConsistent,
@@ -71,31 +74,33 @@ object StreamApp {
     type2dur.map(x => (x._1, 1)).reduceByKey(_ + _).foreachRDD(x => {
       x.foreachPartition(
         par => {
-          val col = DbUtils.getCol("wc")
+          val (col,client) = DbUtils.getCol("tb_dur",boradCastConfig.value)
           par.foreach(record => {
             val cond = Filters.eq("word", record._1)
             val kv = new Document("cnt", record._2)
             DbUtils.inc(cond, kv, col)
           })
+          client.close()
         }
       )
     })
     type2dur.map(x => {
       val dur = x._2
-      (RankUtils.getRank(dur.toInt), 1)
+      (boardRankUtils.value.getRank(dur.toInt), 1)
     }).reduceByKey(_ + _)
       .foreachRDD(x => x.foreachPartition(par => {
-        val col = DbUtils.getCol("tb_rank")
+        val (col,client) = DbUtils.getCol("tb_rank",boradCastConfig.value)
         par.foreach(record => {
           val cond = Filters.eq("rank", record._1)
           val kv = new Document("cnt", record._2)
           DbUtils.inc(cond, kv, col)
         })
+        client.close()
       }))
 
 
     ssc.start()
     ssc.awaitTermination()
-    DbUtils.close()
+
   }
 }

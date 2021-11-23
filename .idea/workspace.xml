@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee38bc9-d6d2-42a5-a4d9-fad10db02d05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/ConfigUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/RankUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/DbWrodCntApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/DbWrodCntApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/StreamApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/StreamApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/DbUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/DbUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/RankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/RankUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/analysis/compile" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/analysis/compile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/analysis/compile.relations" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/analysis/compile.relations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/DbWrodCntApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/DbWrodCntApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/pk-ss-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/pk-ss-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +210,7 @@
       <workItem from="1637585101079" duration="15000" />
       <workItem from="1637585134780" duration="135000" />
       <workItem from="1637585332422" duration="9626000" />
-      <workItem from="1637656287671" duration="7338000" />
+      <workItem from="1637656287671" duration="15626000" />
     </task>
     <servers />
   </component>
