@@ -22,9 +22,9 @@ object DbWrodCntApp {
     lines.flatMap(_.split(",")).map((_,1)).reduceByKey(_+_)
       .foreachRDD(rdd=>{
         rdd.foreachPartition(par=>{
-         val col = DbUtils.getCol()
+         //val col = DbUtils.getCol()
           par.foreach(record=>{
-            DbUtils.inc(record._1,record._2.toInt,col)
+            //DbUtils.inc(record._1,record._2.toInt,col)
           })
         })
       })
