@@ -22,17 +22,11 @@
       </schema-mapping>
     </data-source>
     <data-source name="bili@103.47.82.178" uuid="92334054-475b-49b4-9ea7-a0e3d3b1b4a3">
-      <database-info product="Mongo DB" version="" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="UNKNOWN" exact-version="0" />
+      <database-info product="Mongo DB" version="4.2.17" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="MONGO" exact-version="4.2.17" exact-driver-version="1.12" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <user-name>jwx543</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

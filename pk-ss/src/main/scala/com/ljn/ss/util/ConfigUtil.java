@@ -19,7 +19,7 @@ public class ConfigUtil {
     public final static String KAFKA_IP = "kafka.ip";
     public final static String KAFKA_PORT = "kafka.port";
     public final static String KAFKA_TOPIC = "kafka.topic";
-
+    public final static String KAFKA_PARTITION = "kafka.partition";
     public final static String MONGO_IP = "mongo.ip";
     public final static String MONGO_PORT = "mongo.port";
     public final static String MONGO_DBNAME = "mongo.dbname";

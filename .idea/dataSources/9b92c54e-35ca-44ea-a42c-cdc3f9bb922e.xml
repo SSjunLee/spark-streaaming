@@ -8,42 +8,46 @@
       <Current>1</Current>
     </schema>
     <schema id="3" parent="1" name="local"/>
-    <table id="4" parent="2" name="restaurant"/>
-    <table id="5" parent="2" name="tb_rank"/>
-    <table id="6" parent="2" name="wc"/>
+    <table id="4" parent="2" name="tb_dur"/>
+    <table id="5" parent="2" name="tb_topic"/>
+    <table id="6" parent="2" name="tb_type"/>
     <column id="7" parent="4" name="_id">
       <Position>1</Position>
       <DataType>ObjectId|12s</DataType>
     </column>
-    <column id="8" parent="4" name="name">
+    <column id="8" parent="4" name="cnt">
       <Position>1</Position>
-      <DataType>String|12s</DataType>
+      <DataType>Int32|4s</DataType>
     </column>
-    <column id="9" parent="4" name="violations">
-      <Position>1</Position>
+    <column id="9" parent="4" name="dur_type">
+      <Position>2</Position>
       <DataType>Int32|4s</DataType>
     </column>
     <column id="10" parent="5" name="_id">
       <Position>1</Position>
       <DataType>ObjectId|12s</DataType>
     </column>
-    <column id="11" parent="5" name="cnt">
+    <column id="11" parent="5" name="offset">
       <Position>1</Position>
+      <DataType>Int64|12s</DataType>
+    </column>
+    <column id="12" parent="5" name="partition">
+      <Position>2</Position>
       <DataType>Int32|4s</DataType>
     </column>
-    <column id="12" parent="5" name="rank">
-      <Position>1</Position>
-      <DataType>Int32|4s</DataType>
+    <column id="13" parent="5" name="topic">
+      <Position>3</Position>
+      <DataType>String|12s</DataType>
     </column>
-    <column id="13" parent="6" name="_id">
+    <column id="14" parent="6" name="_id">
       <Position>1</Position>
       <DataType>ObjectId|12s</DataType>
     </column>
-    <column id="14" parent="6" name="word">
+    <column id="15" parent="6" name="video_type">
       <Position>1</Position>
       <DataType>String|12s</DataType>
     </column>
-    <column id="15" parent="6" name="cnt">
+    <column id="16" parent="6" name="cnt">
       <Position>2</Position>
       <DataType>Int32|4s</DataType>
     </column>

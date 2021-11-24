@@ -5,26 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee38bc9-d6d2-42a5-a4d9-fad10db02d05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/dao/DurDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/dao/ViedeoTypeDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/manager/MongodbOffserManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/manager/OffsetManager.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08586691-0f8e-4354-b3af-7ca5ad814c02/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b92c54e-35ca-44ea-a42c-cdc3f9bb922e/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/DbWrodCntApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/DbWrodCntApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/OffsetApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/OffsetApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/StreamApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/StreamApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/ConfigUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/DbUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/DbUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/RankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/src/main/scala/com/ljn/ss/util/RankUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/analysis/compile" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/analysis/compile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/analysis/compile.relations" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/analysis/compile.relations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/DbWrodCntApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/DbWrodCntApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/OffsetApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/OffsetApp$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/StreamApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/ConfigUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/ConfigUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/DbUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/RankUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/classes/com/ljn/ss/util/RankUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pk-ss/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pk-ss/target/pk-ss-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pk-ss/target/pk-ss-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Class" />
+        <option value="Scala Trait" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -118,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DbWrodCntApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljn.ss.DbWrodCntApp" />
-      <module name="pk-ss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljn.ss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MeassageGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljn.kafka.MeassageGenerator" />
       <module name="pk-kafka-api" />
@@ -144,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OffsetApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljn.ss.OffsetApp" />
+      <module name="pk-ss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljn.ss.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamApp" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.ljn.ss.StreamApp" />
       <module name="pk-ss" />
       <option name="PROGRAM_PARAMETERS" value="D:\code\java\pkspark\app.properties" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljn.ss.*" />
+          <option name="PATTERN" value="com.ljn.ss.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,18 +190,18 @@
     <list>
       <item itemvalue="Application.ConfigUtil" />
       <item itemvalue="Application.DbUtils" />
-      <item itemvalue="Application.DbWrodCntApp" />
       <item itemvalue="Application.MeassageGenerator" />
       <item itemvalue="Application.StreamApp" />
       <item itemvalue="Spring Boot.LogServiceWebApplication" />
+      <item itemvalue="Application.OffsetApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StreamApp" />
+        <item itemvalue="Application.OffsetApp" />
+        <item itemvalue="Application.DbUtils" />
         <item itemvalue="Application.ConfigUtil" />
         <item itemvalue="Application.MeassageGenerator" />
-        <item itemvalue="Application.DbWrodCntApp" />
-        <item itemvalue="Application.DbUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -210,12 +221,25 @@
       <workItem from="1637585101079" duration="15000" />
       <workItem from="1637585134780" duration="135000" />
       <workItem from="1637585332422" duration="9626000" />
-      <workItem from="1637656287671" duration="15626000" />
+      <workItem from="1637656287671" duration="16249000" />
+      <workItem from="1637715885573" duration="17365000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.0">
+      <created>1637682883486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637682883486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
